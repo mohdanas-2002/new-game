@@ -3,7 +3,7 @@ name: Ludo Game CI/CD Pipeline
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build:
