@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  ludo-game:
+    build: .
+    container_name: ludo-game-container
+    volumes:
+      - .:/app  # Mount project files for live updates
+    stdin_open: true
+    tty: true
